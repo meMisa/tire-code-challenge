@@ -1,13 +1,19 @@
+// node modules
 import React from 'react';
-import logo from './img/tier-logo.svg';
-import './css/App.css';
+// assets
+import logo from 'assets/img/tier-logo.svg';
+// texts
+import { CHANGE_MOBILITY_FOR_GOOD } from 'constants/texts';
+// components
 import { ShortenUrlForm } from './components';
+// styles
+import 'styles/App.css';
 
 function App() {
     return (
         <div className="App">
             <img src={logo} className="App-logo" alt="logo" />
-            <p>Change mobility for good</p>
+            <header className="header">{CHANGE_MOBILITY_FOR_GOOD}</header>
             <ShortenUrlForm />
         </div>
     );

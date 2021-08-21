@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  padding: 50px 15px;
+}
+
+.App-logo {
+  height: 50px;
+  pointer-events: none;
+}
+
+.header{
+  padding: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
