@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test match snapshot 1`] = `
+<div
+  className="shourten-form-container"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      data-testid="url-label"
+      htmlFor="shorten"
+    >
+      Url:
+      <input
+        className="url shorten-url-form-elements-common"
+        id="shorten"
+        onChange={[Function]}
+        placeholder="Url to shorten"
+        type="url"
+        value=""
+      />
+    </label>
+    <div
+      className="submit-wrapper"
+    >
+      <button
+        className="shorten-url-form-elements-common "
+        data-testid="submit-button"
+        type="submit"
+      >
+        Shorten and copy URL
+      </button>
+    </div>
+    <div
+      className="short-url"
+    >
+      
+    </div>
+  </form>
+</div>
+`;

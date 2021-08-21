@@ -47,6 +47,7 @@
   margin: 20px auto;
   width: fit-content;
   background: blue;
+  cursor: copy;
 }
 .disable-button {
   background: #a0a0a0 !important;

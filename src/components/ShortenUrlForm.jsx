@@ -44,7 +44,7 @@ const ShortenUrlForm = () => {
     return (
         <div className="shourten-form-container">
             <form onSubmit={onSubmit}>
-                <label htmlFor="shorten">
+                <label htmlFor="shorten" data-testid="url-label">
                     {URL}
                     <input
                         className="url shorten-url-form-elements-common"
@@ -59,6 +59,7 @@ const ShortenUrlForm = () => {
                     <button
                         className={`shorten-url-form-elements-common ${state.loading ? 'disable-button' : ''}`}
                         type="submit"
+                        data-testid="submit-button"
                     >
                         {SHORTEN_COPY_URL}
                     </button>
